@@ -1,0 +1,12 @@
+target 'YouTubeSample' do
+  platform :osx, '10.9'
+
+  pod 'GoogleAPIClientForREST/YouTube', :path => '../../'
+  # In production, you would use:
+  # pod 'GoogleAPIClientForREST/YouTube'
+
+  # Also use GTMAppAuth. See the project wiki, you can use this or Google
+  # SignIn.
+  pod 'GTMAppAuth'
+
+end

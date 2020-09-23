@@ -1,0 +1,12 @@
+target 'StorageSample' do
+  platform :osx, '10.9'
+
+  pod 'GoogleAPIClientForREST/Storage', :path => '../../'
+  # In production, you would use:
+  # pod 'GoogleAPIClientForREST/Storage'
+
+  # Also use GTMAppAuth. See the project wiki, you can use this or Google
+  # SignIn.
+  pod 'GTMAppAuth'
+
+end

@@ -1,0 +1,16 @@
+{
+  "INFO": [
+    "Discovery included 'prod_tt_sasportal:v1alpha1', but skipping as requested.",
+    "Guessed formatted name 'CustomSearch' from API title 'Custom Search API'",
+    "Guessed formatted name 'DigitalAssetLinks' from API title 'Digital Asset Links API'",
+    "Guessed formatted name 'GroupsSettings' from API title 'Groups Settings API'",
+    "Guessed formatted name 'SASPortal' from API title 'SAS Portal API'",
+    "Guessed formatted name 'StorageTransfer' from API title 'Storage Transfer API'",
+  ],
+  "WARNING": [
+    "Method 'admin.channels.stop' had a 'path' that started with '/', removing it.",
+    "Won't add the kind 'bigquery#dataset' to the kind registry: it is used on multiple schema: Dataset, DatasetList.datasets.item",
+    "Won't add the kind 'bigquery#job' to the kind registry: it is used on multiple schema: Job, JobList.jobs.item",
+    "Won't add the kind 'bigquery#table' to the kind registry: it is used on multiple schema: Table, TableList.tables.item",
+  ]
+}
